@@ -1,12 +1,13 @@
-package api;
+package com.retrofit.forecast.api;
 
-import model.City;
-import model.Forecast;
+
+import com.retrofit.forecast.model.City;
+import com.retrofit.forecast.model.Forecast;
+import com.retrofit.forecast.util.PathDate;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
-import util.PathDate;
 
 import java.util.List;
 

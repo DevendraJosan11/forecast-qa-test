@@ -1,4 +1,4 @@
-package model;
+package com.retrofit.forecast.model;
 
 public class City {
 
@@ -9,15 +9,17 @@ public class City {
         return title;
     }
 
-    public void setTitle(String title) {
+    public City setTitle(String title) {
         this.title = title;
+        return this;
     }
 
     public Long getWoeid() {
         return woeid;
     }
 
-    public void setWoeid(Long woeid) {
+    public City setWoeid(Long woeid) {
         this.woeid = woeid;
+        return this;
     }
 }

@@ -1,4 +1,4 @@
-package model;
+package com.retrofit.forecast.model;
 
 import com.google.gson.annotations.SerializedName;
 
