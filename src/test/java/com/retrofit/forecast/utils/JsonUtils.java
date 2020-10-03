@@ -1,14 +1,16 @@
-package com.retrofit.forecast;
+package com.retrofit.forecast.utils;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.function.Supplier;
 
+@Slf4j
 @Component
 public class JsonUtils {
 
